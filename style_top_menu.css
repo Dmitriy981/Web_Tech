@@ -66,24 +66,31 @@ li a:hover{
 }
 
 h3 {
-    padding-left: 2.5%;
+    padding-left: 1%;
     text-decoration: none;
     color: #1191a1;
-    margin-left: 10%;
 }
 
-main {
+article h3 {
+    margin-left: 5%;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+.wrapper {
 
     width: 100%;
     display: block;
     margin-top: 5%;
-
 }
 
 article {
     float: left;
     margin-left: 2.5%;
-    width: 65%;
+    margin-bottom: 2.5%;
+    width: 62.5%;
     overflow: hidden;
     background-color: white;
     position: relative;
@@ -93,29 +100,61 @@ article {
 
 aside {
     float: right;
-    width: 30%;
+    width: 25%;
     margin-right: 2.5%;
     display: block;
     overflow: hidden;
-    position:relative;
+    position: relative;
     background-color: white;
+    margin-bottom: 5%;
 
 }
 
 aside p {
     margin-left: 10%;
+    margin-right: 10%;
+    font-size: 13px;
 }
-article p {
+article p, .ul_content li{
     margin-left: 5%;
+    margin-right: 5%;
+    font-size: 90%;
 }
-aside img {
+aside img{
     margin-right: 5%;
 }
 
-footer {
+article img {
+    margin-left: 5%;
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 5%;
+}
+
+.footer {
+    right: 5%;
+    bottom: 0;
+    left: 5%;
+    padding: 1%;
     background-color: rgba(17, 145, 161, 0.6);
     clear: both;
-    color: #fff;
-    padding: 1% 1%;
-    margin-top: 35%;
+    color: white;
+    font-size: 85%;
+}
+
+#copyright {
+    text-align: left;
+    float: left;
+    margin-right: 15%;
+}
+
+#dev {
+    text-align: right;
+    float: right;
+    margin-left: 10%;
+}
+
+#tel {
+    font-size: 125%;
 }
